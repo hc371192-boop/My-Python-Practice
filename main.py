@@ -1,14 +1,13 @@
-print("Hello, World!")
-# This is a simple Python script that prints "Hello, World!" to the console.
-'''this is a multi-line comment'''
-a = "TWINKLE TWINKLE LITTLE STAR,HOW I WONDER WHAT YOU ARE," \
-"UP ABOVE THE WORLD SO HIGH,LIKE A DIAMOND IN THE SKY" \
-",TWINKLE TWINKLE LITTLE STAR," \
-"HOW I WONDER WHAT YOU ARE"
-print(a)
-# import pyttsx3
-# engine = pyttsx3.init()
-# engine.say("Oh Guru!..Tussi great ho!")
-# engine.runAndWait()
-# # This code initializes a text-to-speech engine and makes it say "Hey I am good".
-
+# QUE-1
+name = input("Enter your name: ")
+print("Good morning, " + name)
+# QUE-2
+letter = '''Dear <|Name|>,
+You are selected on <|Date|>
+for the job role of Software Engineer.'''
+print(letter.replace("<|Name|>", "Yudhishtar Chaudhary").replace("<|Date|>", "28 September 2025"))
+# QUE-3
+name = "Yudhishtar Chaudhary"
+print(name.find(" "))
+letter = "Dear Harsh, \nthis python course is nice. \nThanks!"
+print(letter)
